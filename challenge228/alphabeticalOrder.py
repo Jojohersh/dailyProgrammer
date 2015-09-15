@@ -3,6 +3,7 @@
 import sys
 
 def checkOrder(word):
+  word = word.lower()
   i = 0
   wordLen = len(word)
   isInOrder = True
